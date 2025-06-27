@@ -33,7 +33,20 @@ print("Libraries imported successfully ✅")
 import io
 
 # Automatically read the first uploaded file
-filename = next(iter(uploaded))
+import streamlit as st
+import pandas as pd
+
+# Upload CSV file
+uploaded_file = st.file_uploader("Upload your dataset (CSV)", type=["csv"])
+
+if uploaded_file is not None:
+    df = pd.read_csv(uploaded_file)
+    st.write("Preview of uploaded data:")
+    st.write(df)
+else:
+    st.warning("Please upload a CSV file to proceed.")
+
+
 df = pd.read_csv(io.BytesIO(uploaded[filename]))
 
 # 🔍 Preview the data
