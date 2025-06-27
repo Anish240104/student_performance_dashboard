@@ -25,8 +25,8 @@ print("Libraries imported successfully ✅")
 
 # 📂 Upload the student data CSV file
 
-from google.colab import files
-uploaded = files.upload()
+#from google.colab import files
+#uploaded = files.upload()
 
 # 📄 Load the uploaded CSV into a pandas DataFrame
 
