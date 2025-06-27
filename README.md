@@ -68,6 +68,21 @@ This notebook analyzes student academic data to:
 
 ---
 
+## 🌐 Streamlit Web Dashboard
+
+A fully interactive version of the analysis — no coding needed!
+
+👉 **[Click here to try the live dashboard](https://studentperformancedashboard-wpxd6wryu5xznhhqkjaag8.streamlit.app/)**  
+
+
+### 🔧 Features:
+- 📂 Upload your own CSV file
+- 📊 Auto-generated average marks bar chart
+- 🔥 Correlation heatmap
+- 🥧 Attendance distribution pie chart
+- 📈 Login frequency histogram
+- 🏅 Top vs. struggling student summary
+
 ## 📬 Contact
 
 **Anish Jhajhria**  
