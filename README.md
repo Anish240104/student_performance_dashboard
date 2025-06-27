@@ -86,12 +86,11 @@ A fully interactive version of the analysis — no coding needed!
 ## 📬 Contact
 
 **Anish Jhajhria**  
-📧 anishjhajhria@example.com  
-🌐 [LinkedIn Profile](https://linkedin.com/in/your-profile) *(replace with your actual)*  
-📂 [GitHub](https://github.com/your-username) *(replace with your GitHub link)*
+📧 anish241a@gmail.com 
+🌐 [LinkedIn Profile](https://linkedin.com/in/anish-jhajhria-83b53628a) 
+📂 [GitHub](https://github.com/Anish240104) 
 
 ---
 
 ⭐ *Give this project a star if it helped or inspired you!*
-# student_performance_dashboard
-Student performance dashboard using Python &amp; Streamlit
+
