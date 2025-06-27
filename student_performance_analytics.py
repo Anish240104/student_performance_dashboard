@@ -47,7 +47,18 @@ else:
     st.warning("Please upload a CSV file to proceed.")
 
 
-df = pd.read_csv(io.BytesIO(uploaded[filename]))
+import pandas as pd
+import io  # only if you're using BytesIO (usually not needed for .csv)
+
+# Assuming you already used:
+uploaded_file = st.file_uploader("Upload CSV file", type=["csv"])
+
+if uploaded_file is not None:
+    df = pd.read_csv(uploaded_file)  # <-- This is all you need for CSV
+    st.write(df)
+else:
+    st.warning("Please upload a file.")
+
 
 # 🔍 Preview the data
 st_rows, st_cols = df.shape
